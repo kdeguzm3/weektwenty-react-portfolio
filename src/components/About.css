@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.aboutPage {
+    padding: 10px;
+    background-color: black;
+    height: 100vh;
+    color: lime;
+}
+
+span {
+    color: blue;
+    font-weight: bolder;
+}
+
+img {
+height: 200px;
+border-radius: 50%;
+}
+.aboutPage ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    list-style: none;
+}
+.aboutPage li {
+    margin: 4px;
+    padding: 2px;
+    width: 80px;
+    line-height: 2em;
+    background-color: rgba(255,255,255,0.2);
+}

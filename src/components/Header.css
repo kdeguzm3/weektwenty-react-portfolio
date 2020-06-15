@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.splash {
+    z-index: 2;
+    background-image: url(https://images.unsplash.com/photo-1592153361268-8da235220d20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: black;
+    color: white;
+    text-shadow: 10px 10px 15px 15px rgba(0,0,0,1);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    font-size: larger;
+    line-height: 100vh;
+    font-family: 'Sriracha', cursive;
+    overflow: hidden;
+    position: fixed;
+}
+
+.collapsed {
+    transition: all .5s;
+    height: 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6441a4;
+    height: 2em;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    line-height: 2em;
+}
